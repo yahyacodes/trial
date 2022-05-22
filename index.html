@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- First section (weight conversion) -->
+    <h1>Weight Comperison</h1>
+    <div class="weight1">
+      <select name="weight" class="weight">
+        <option value="grams">grams</option>
+        <option value="kilograms">kilograms</option>
+      </select>
+      <input type="number" name="" id="field" />
+    </div>
+
+    <div class="weight2">
+      <select name="weight-converter" class="weight-converter">
+        <option value="grams">grams</option>
+        <option value="kilograms">kilograms</option>
+      </select>
+      <input type="number" name="" id="ans" disabled />
+    </div>
+
+    <button class="btn">convert</button>
+
+    <!-- Second Section (liters conversion) -->
+    <h2>Comperison Litres</h2>
+    <div class="liters">
+      <select name="litres" class="litre">
+        <option value="liters">liters</option>
+        <option value="mililiters">mililiters</option>
+      </select>
+      <input type="number" name="" id="litres-from" />
+    </div>
+
+    <div class="liters1">
+      <select name="litres" class="litre-to">
+        <option value="liters">liters</option>
+        <option value="mililiters">mililiters</option>
+      </select>
+      <input type="number" name="" id="litres-to" disabled />
+    </div>
+
+    <button class="convert">convert</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

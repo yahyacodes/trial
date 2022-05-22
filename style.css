@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  position: absolute;
+  top: 7rem;
+  left: 20rem;
+}
+
+.weight1 {
+  position: absolute;
+  top: 10rem;
+  left: 15rem;
+}
+
+.weight1 select {
+  width: 100%;
+  height: 30px;
+}
+
+.weight1 input {
+  width: 100%;
+  height: 30px;
+}
+
+.weight2 {
+  position: absolute;
+  top: 10rem;
+  left: 33rem;
+}
+
+.weight2 select {
+  width: 100%;
+  height: 30px;
+}
+
+.weight2 input {
+  width: 100%;
+  height: 30px;
+}
+
+.btn {
+  position: absolute;
+  top: 15rem;
+  left: 30rem;
+  padding: 5px 20px;
+}
+
+h2 {
+  position: absolute;
+  top: 7rem;
+  left: 75rem;
+}
+
+.liters {
+  position: absolute;
+  top: 10rem;
+  left: 65rem;
+}
+
+.liters select {
+  width: 100%;
+  height: 30px;
+}
+
+.liters input {
+  width: 100%;
+  height: 30px;
+}
+
+.liters1 {
+  position: absolute;
+  top: 10rem;
+  left: 83rem;
+}
+
+.liters1 select {
+  width: 100%;
+  height: 30px;
+}
+
+.liters1 input {
+  width: 100%;
+  height: 30px;
+}
+
+.convert {
+  position: absolute;
+  top: 15rem;
+  left: 80rem;
+  padding: 5px 20px;
+}
